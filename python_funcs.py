@@ -9,3 +9,12 @@ def is_triangle(a, b, c):
         return True
     else:
         return False
+    
+def find_it(seq):
+    '''Given an array, find the int that appears an odd number of times.
+    There will always be only one integer that appears an odd number of times.'''
+    for _ in seq:
+        if seq.count(_) % 2 == 0:
+            pass
+        else:
+            return _
